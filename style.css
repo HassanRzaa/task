@@ -2,6 +2,7 @@ body , *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 .main , .section{
     width: 100%;
@@ -108,7 +109,7 @@ ul li{
     position: relative;
     z-index: 99;
 }
-#section3 , #section4{
+#section3 , #section4 , #section5{
     background-color: #019a97;
 }
 #section3{
@@ -121,5 +122,33 @@ ul li{
 #row4 img{
     width: 100%;
     max-width: 400px;
-    margin-top:-120px ;
+    margin-top:-120px;
+}
+.textone{
+    margin-top: -120px;
+}
+#row4 .logos img{
+    margin-top: -10px;
+    width: 100%;
+    max-width: 1000px;
+
+}
+#row5 .blurb img{
+    width: 100%;
+    max-width: 200px;
+}
+#row5 .blurb h3{
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+}
+#row5 .blurb p{
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+}
+#row5{
+    display: flex;
+    column-gap: 150px;
+    margin-top: -50px;
 }
