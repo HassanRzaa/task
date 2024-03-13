@@ -1,0 +1,125 @@
+body , *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main , .section{
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.row{
+    width: 80%;
+    max-width: 1080px;
+    display: flex;
+    justify-content: center;
+}
+.top-container{
+    width: 80%;
+    max-width: 1080px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-one{
+   margin-left: -25px;
+}
+.two-logo{
+    display: flex;
+    align-items: center;
+
+}
+.logo-three{
+    margin-top: -7px;
+}
+.logo-two img{
+    margin-right: -100px;  
+}
+.nav, ul{
+    display: flex;
+    list-style-type: none;
+    column-gap: 30px;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: #fff;
+}
+ul li{
+    border-left: 1px solid #ffffffa8;
+    border-right: 1px solid #ffffffc0;
+    padding-inline: 10px;
+}
+#row1{
+    background-color:#019a97;
+    padding-block: 15px;
+    padding-left: 10px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: flex-start;
+}
+#section2{
+    background-image: url(./image/leaf.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 100px;
+    position: relative;
+    top: -30px;
+    z-index: -99;
+}
+#row2 img{
+    width: 100%;
+    max-width: 500px;
+}
+.timer-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #fdae15;
+    padding-inline: 20px;
+    justify-content: flex-start;
+    border-radius: 5px;
+    transform: scalex(0.8);
+}
+.num , .name{
+    font-size: 25px;
+    text-align: center;
+    font-family: sans-serif;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.num{
+    background-color: #d58e00;
+    padding: 30px;
+    margin-top: 20px
+}
+#row4{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#row4 p{
+    font-size: 25px;
+    font-family: sans-serif;
+    color: #fff;
+    position: relative;
+    z-index: 99;
+}
+#section3 , #section4{
+    background-color: #019a97;
+}
+#section3{
+   margin-top: -50px;
+   padding-top: 40px;
+}
+#row4 p span{
+    color: #d58e00;
+}
+#row4 img{
+    width: 100%;
+    max-width: 400px;
+    margin-top:-120px ;
+}
