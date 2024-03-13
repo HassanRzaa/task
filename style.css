@@ -5,8 +5,8 @@ body , *{
     font-family: sans-serif;
 }
 .main , .section{
-    width: 100%;
-    max-width: 100%;
+    width: auto;
+    max-width: auto;
     display: flex;
     justify-content: center;
 }
@@ -151,4 +151,5 @@ ul li{
     display: flex;
     column-gap: 150px;
     margin-top: -50px;
+    padding-bottom: 50px;
 }
