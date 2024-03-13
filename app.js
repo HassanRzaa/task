@@ -1,3 +1,13 @@
+window.addEventListener('scroll', function() {
+    let navbar = document.getElementById('row1');
+
+    if (window.scrollY > 0) {
+        navbar.style.position = 'fixed';
+        navbar.style.top = '30px';
+    } else {
+        navbar.style.position = 'static';
+    }
+});
 function startTimer() {
     let startTime = Date.now();
     let timerContainers = document.querySelectorAll('.timer-container');
