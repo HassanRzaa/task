@@ -160,3 +160,10 @@ ul li{
     margin-top: -50px;
     padding-bottom: 50px;
 }
+div#row6 {
+    width: 90%;
+    max-width: 1400px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
